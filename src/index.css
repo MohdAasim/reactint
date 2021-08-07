@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cardcontainer{
+  width:42%;
+  height: 100vh;
+  margin: 5% 30%;
+  background-color:#fff;
+  border-radius:12px;
+  box-shadow: 0 13px 10px -7px rgba(0,0,0,0.1);
+  transition:all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+.cardcontainer:hover{
+  box-shadow: 0 30px 18px -8px rgba(10, 10, 10, 0.671);
+  transform: scale(1.05,1.05);
+}
+.text-muted{
+  text-transform:capitalise;
+  font-weight: 400;
+  text-align: center;
+  font-style:italic; 
+  background-color: #fff;
+  margin-top:  2%;
+}
+#inp{
+  /* font-size: small; */
+  text-align: center;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  width:60%;
+  font-size: 20px;
+  border-bottom: 2px solid purple;
+  margin: 0% 4% 0% 10%;
+  outline: none;
+}
+#margininup{
+  background-color: #fff;
+}
+#bton{
+  margin-right: 10%;
+}
+#btonDEl{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 10px 0 0 35px;
+  padding: 5px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+#btonDEl:hover{
+  background-color: transparent;
+  color: crimson;
+  box-shadow: 5px 5px 15px -5px rgba(255, 0, 0, 0.5);
+}
+#marginlist{
+  background-color: #fff;
+  margin-top: 10px;
+}
+#inplist{
+  text-align: center;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  width:60%;
+  font-size: 20px;
+  border-bottom: 2px solid purple;
+  margin: 0% 10% 0% 4%;
+  outline: none;
+}
